@@ -283,7 +283,7 @@ Autonomous-Vehicle-Perception-Module/
 ├── Phase1.ipynb          # Traditional ML (HOG + classical algorithms)
 ├── phase2.ipynb          # Deep Learning (CNN, Transfer Learning, AE)
 ├── README.md             # This file
-└── data/                 # GTSRB dataset (downloaded via kagglehub)
+└── Charts/               # Graphs and images
 ```
 
 ---
