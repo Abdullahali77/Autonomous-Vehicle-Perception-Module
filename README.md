@@ -242,6 +242,40 @@ Output (64×64, RGB)
 
 ## Phase 3: Temopral Models
 
+### Dataset: BDD100k
+Link : https://www.kaggle.com/datasets/blossom1994/bdd-small-dataset
+This dataset is a 2-frame sequences with each frame having 3 labels:
+1. Green light
+2. Red light
+3. Stop sign
+the goal is to do multi-label classification  
+##### Stats
+Sequence Folders (each folder contains frames from one video clip):
+  Training: 1360 sequences
+  Validation: 276 sequences
+  Testing: 555 sequences
+
+Frame Counts:
+  Training: 2500 frames
+  Validation: 500 frames
+  Testing: 1000 frames
+  Total: 4000 frames
+
+Label Files Loaded:
+  Training sequences: 1360
+  Validation sequences: 276
+
+###### Label Distribution (3-class simplified):
+Training set (2500 frames):
+  Red light present:   19.9%
+  Green light present: 26.2%
+  Road sign present:   58.8%
+...
+Validation set (500 frames):
+  Red light present:   32.0%
+  Green light present: 29.0%
+  Road sign present:   64.6%
+
 ### Model 1: RNN
 RNN TEST RESULTS
 Red Light       - Accuracy: 0.8404 (374/445)
