@@ -7,6 +7,7 @@ A comprehensive comparative study of traffic sign recognition using traditional 
 - [Dataset](#dataset)
 - [Phase 1: Traditional Machine Learning](#phase-1-traditional-machine-learning)
 - [Phase 2: Deep Learning](#phase-2-deep-learning)
+- [Phase 3: Temopral Models](#phase-3-Temporal-Models)
 - [Conclusion](#conclusion)
 
 ---
@@ -238,7 +239,30 @@ Output (64×64, RGB)
 
 ![alt text](Charts/AE.png)
 
----
+
+## Phase 3: Temopral Models
+
+### Model 1: RNN
+RNN TEST RESULTS
+Red Light       - Accuracy: 0.8404 (374/445)
+Green Light     - Accuracy: 0.8652 (385/445)
+Road Sign       - Accuracy: 0.6562 (292/445)
+RNN Per-label Average Accuracy: 0.7873
+- Confusion Matrix ![alt text](RNN_Graphs\rnn_confusion_matrices.png)
+
+### Model 2: Lstm
+
+### Model 3: GRU
+
+TEST RESULTS
+Red Light    Accuracy: 0.8292
+Green Light  Accuracy: 0.6787
+Road Sign    Accuracy: 0.6719
+Avg Label Accuracy : 0.7266
+- Confusion Matrix ![alt text](Charts\output_GRU_conf.png)
+
+### MOdel 4: Transformer
+
 
 ## Technical Stack
 
