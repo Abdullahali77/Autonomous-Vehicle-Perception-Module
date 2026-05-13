@@ -285,6 +285,10 @@ RNN Per-label Average Accuracy: 0.7873
 - Confusion Matrix ![alt text](RNN_Graphs\rnn_confusion_matrices.png)
 
 ### Model 2: Lstm
+Red Light       - Accuracy: 0.8315 (370/445)
+Green Light     - Accuracy: 0.8337 (371/445)
+Road Sign       - Accuracy: 0.6809 (303/445)
+Per-label Average Accuracy: 0.7820
 
 ### Model 3: GRU
 
@@ -296,6 +300,10 @@ Avg Label Accuracy : 0.7266
 - Confusion Matrix ![alt text](Charts\output_GRU_conf.png)
 
 ### MOdel 4: Transformer
+Red Light       - Accuracy: 0.6584 (293/445)
+Green Light     - Accuracy: 0.7461 (332/445)
+Road Sign       - Accuracy: 0.6719 (299/445)
+Transformer Per-label Average Accuracy: 0.6921
 
 
 ## Technical Stack
