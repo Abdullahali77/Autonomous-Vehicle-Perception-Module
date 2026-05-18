@@ -346,10 +346,17 @@ The modular approach allows practitioners to choose the best solution for their 
 
 ```
 Autonomous-Vehicle-Perception-Module/
-├── Phase1.ipynb          # Traditional ML (HOG + classical algorithms)
-├── phase2.ipynb          # Deep Learning (CNN, Transfer Learning, AE)
+├── src
+   ├── Phase1.ipynb          # Traditional ML (HOG + classical algorithms)
+   ├── phase2.ipynb          # Deep Learning (CNN, Transfer Learning, AE)
+   ├── phase3                 
+       ├── dataloading-basetemporal.py
+       ├── GRU.py`
+       ├── LSTM.py 
+       ├── RNN.py 
+       ├── transformers.py  
+├── graphs_and_charts     # what you would expect it to be :)
 ├── README.md             # This file
-└── Charts/               # Graphs and images
 ```
 
 ---
