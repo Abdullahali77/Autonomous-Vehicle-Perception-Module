@@ -31,7 +31,7 @@ This project explores traffic sign classification through two distinct approache
 
 ### Class Distribution Analysis
 
-![alt text](graphs & charts/Charts/class_count.png)
+![alt text](graphs_and_charts/Charts/class_count.png)
 - Most common class: Speed limit (50) - highest representation
 - Least common class: Varies by class, balanced using stratified split
 - Training/Validation Split: 80/20 (stratified)
@@ -41,7 +41,7 @@ This project explores traffic sign classification through two distinct approache
 - Normalization: ImageNet statistics (mean=[0.485, 0.456, 0.406], std=[0.229, 0.224, 0.225])
 - Sample images visualization:
 
-![alt text](graphs & charts/Charts/samples.png)
+![alt text](graphs_and_charts/Charts/samples.png)
 
 ---
 
@@ -58,7 +58,7 @@ HOG captures edge and texture patterns in traffic signs effectively.
 - Cells per block: 1×1
 - Feature vector dimension: 64 (after extraction)
 
-![alt text](graphs & charts/Charts/Hog.png)
+![alt text](graphs_and_charts/Charts/Hog.png)
 
 #### 2. Dimensionality Reduction: PCA
 Applied PCA to compress HOG features while retaining classification power.
@@ -237,7 +237,7 @@ Output (64×64, RGB)
 | Validation (best epoch) | 0.0210 | 0.0010 |
 | Test | 0.0209 | 0.0010 |
 
-![alt text](graphs & charts/Charts/AE.png)
+![alt text](graphs_and_charts/Charts/AE.png)
 
 
 ## Phase 3: Temopral Models
@@ -282,7 +282,7 @@ Red Light       - Accuracy: 0.8404 (374/445)
 Green Light     - Accuracy: 0.8652 (385/445)
 Road Sign       - Accuracy: 0.6562 (292/445)
 RNN Per-label Average Accuracy: 0.7873
-- Confusion Matrix ![alt text](RNN_Graphs\rnn_confusion_matrices.png)
+- Confusion Matrix ![alt text](graphs_and_charts\RNN_Graphs\rnn_confusion_matrices.png)
 
 ### Model 2: Lstm
 Red Light       - Accuracy: 0.8315 (370/445)
@@ -297,7 +297,7 @@ Red Light    Accuracy: 0.8292
 Green Light  Accuracy: 0.6787
 Road Sign    Accuracy: 0.6719
 Avg Label Accuracy : 0.7266
-- Confusion Matrix ![alt text](Charts\output_GRU_conf.png)
+- Confusion Matrix ![alt text](graphs_and_charts\Charts\output_GRU_conf.png)
 
 ### MOdel 4: Transformer
 Red Light       - Accuracy: 0.6584 (293/445)
