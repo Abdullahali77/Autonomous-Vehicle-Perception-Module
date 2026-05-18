@@ -31,7 +31,7 @@ This project explores traffic sign classification through two distinct approache
 
 ### Class Distribution Analysis
 
-![alt text](Charts/class_count.png)
+![alt text](graphs & charts/Charts/class_count.png)
 - Most common class: Speed limit (50) - highest representation
 - Least common class: Varies by class, balanced using stratified split
 - Training/Validation Split: 80/20 (stratified)
@@ -41,7 +41,7 @@ This project explores traffic sign classification through two distinct approache
 - Normalization: ImageNet statistics (mean=[0.485, 0.456, 0.406], std=[0.229, 0.224, 0.225])
 - Sample images visualization:
 
-![alt text](Charts/samples.png)
+![alt text](graphs & charts/Charts/samples.png)
 
 ---
 
@@ -58,7 +58,7 @@ HOG captures edge and texture patterns in traffic signs effectively.
 - Cells per block: 1×1
 - Feature vector dimension: 64 (after extraction)
 
-![alt text](Charts/Hog.png)
+![alt text](graphs & charts/Charts/Hog.png)
 
 #### 2. Dimensionality Reduction: PCA
 Applied PCA to compress HOG features while retaining classification power.
@@ -237,7 +237,7 @@ Output (64×64, RGB)
 | Validation (best epoch) | 0.0210 | 0.0010 |
 | Test | 0.0209 | 0.0010 |
 
-![alt text](Charts/AE.png)
+![alt text](graphs & charts/Charts/AE.png)
 
 
 ## Phase 3: Temopral Models
