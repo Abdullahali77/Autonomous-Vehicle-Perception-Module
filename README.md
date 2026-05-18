@@ -356,6 +356,7 @@ Autonomous-Vehicle-Perception-Module/
        ├── RNN.py 
        ├── transformers.py  
 ├── graphs_and_charts     # what you would expect it to be :)
+├── logs                  # logs 
 ├── README.md             # This file
 ```
 
